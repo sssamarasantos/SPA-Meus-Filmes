@@ -1,6 +1,10 @@
+import { MainMenuContainer } from "../../styles/MainMenu/MainMenuContainer";
+
 export const MainMenu = () => (
-    <nav>
-        <li>Home</li>
-        <li>Sobre</li>
-    </nav>
+    <MainMenuContainer>
+        <ul>
+            <li>Home</li>
+            <li>Sobre</li>
+        </ul>
+    </MainMenuContainer>
 );
