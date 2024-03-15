@@ -7,7 +7,7 @@ export const Home = () => {
     const [movies, setMovies] = useState([]);
 
     const fetchMovies = async () => {
-        const { data } = await MoviesService.getMoviesPopular();
+        const { data } = await MoviesService.getPopularMovies();
         setMovies(data.results);
     }
 
